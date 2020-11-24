@@ -314,7 +314,7 @@ git push origin --tags
 ##### 贮藏代码
 
 ```shell
-git stash
+git stash save "备注"
 ```
 
 ##### 查看贮藏列表
