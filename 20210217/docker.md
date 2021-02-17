@@ -316,12 +316,20 @@ version: 3
 
 * 容器名
 
+    指定容器名。
+
     ```yaml
     services:
       容器名:
     ```
+  
+    > 注：
+    >
+    > 此处的容器名是`docker-compose`文件定义的容器名，只适用于该`docker-compose`文件，与`docker container ls -a`看到的容器名不一定一致。
 
 * `build`
+
+    用于构建镜像文件。
 
     * 单个Dockerfile文件
     
